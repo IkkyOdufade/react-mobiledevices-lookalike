@@ -8,7 +8,8 @@
   "types": "typings/index.d.ts",
   "files": [
     "/dist",
-    "src",
+    "src/components",
+    "src/index.js",
     "package.json"
   ],
   "keywords": [
