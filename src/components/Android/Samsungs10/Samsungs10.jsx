@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styled from "@emotion/styled";
-import {samsngphoneBody,  dotsam10,blackspacetop, blackspacebottom, cameraSams10, paddingCont, body} from '../../config/style';
+import {samsngphoneBody, mainbtton, dotsam10,blackspacetop, blackspacebottom, cameraSams10, paddingCont, body} from '../../config/style';
 
 
 export default function Samsungs10() {
@@ -29,7 +29,17 @@ export default function Samsungs10() {
   ${blackspacebottom}
   `
 
- 
+  const Content = styled.button `
+  ${mainbtton}
+  `
+
+
+const handleClick = (e) => {
+e.preventDefault()
+console.log("It works!!")
+
+}
+
    return (
       <MainBody>
         <p>Yo!</p>
@@ -40,6 +50,8 @@ export default function Samsungs10() {
             <Camera>
             <Dot></Dot>
             </Camera>
+            <Content onClick={handleClick}>Click me!</Content>
+            {text}
             <Blackspacebottom></Blackspacebottom>
            
           </Smartphone>

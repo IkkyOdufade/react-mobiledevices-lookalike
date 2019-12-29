@@ -34,7 +34,13 @@ ${iphoneDash67}
   
   const IPhonedotell66s7 = styled.div `
   ${dotellipseIph66s7}
-  `;
+  `
+  const handleClick = (e) => {
+    e.preventDefault()
+    console.log("Add whatever you need to add :)")
+    
+    } 
+  ;
       return (
           <MainBody>
             <p>Meaning??</p>
@@ -44,6 +50,7 @@ ${iphoneDash67}
                 <IPhonedot66s7></IPhonedot66s7>
                 <IPhonedot166s7></IPhonedot166s7>
                 <IPhonedot266s7></IPhonedot266s7>
+                <Content onClick={handleClick}>Click me !!</Content>
                 <IPhonedotbot66s7></IPhonedotbot66s7>
                 <IPhonedotell66s7></IPhonedotell66s7>
               </IPhoneBody66s7>

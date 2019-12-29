@@ -207,7 +207,7 @@ display: block;
     z-index: 50;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 0px;
+    margin-top: -1px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     `;
@@ -404,6 +404,21 @@ margin-right: 0px;
 margin-left: 42px;
     `;
 
+    export const mainbtton = css `
+    display: block;
+    width: 150px;
+    height: 40px;
+    padding: 10px 30px;
+    margin: auto;
+    margin-top: 109px;
+    background: #a73445;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+    `
+
     export const dotbottIph8 = css `
     display: block;
   width: 187px;
@@ -413,13 +428,14 @@ margin-left: 42px;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 0px;
-  margin-top: 321px;
+  bottom:-3px;
+  position:absolute;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
         `;
 
     export const dotbottIph67 = css `
-    display: block;
+    display: inline-block;
     width: 187px;
     height: 40px !important;
     background: #110c11;
@@ -427,7 +443,8 @@ margin-left: 42px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
-    margin-top: 314px;
+    bottom:-3px;
+    position:absolute;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
         `;
@@ -486,11 +503,12 @@ export const blackspacetop = css `
         `;
 
 export const blackspacebottom = css `
-display: block;
+display: inline-block;
 width: 240px;
 height: 10px;
 background: #000;
-margin-top: 503px;
+bottom:-3px;
+position:absolute;
 margin-bottom: 0px;
 margin-right: 0px;
 margin-left: 12px;
@@ -503,11 +521,13 @@ display: block;
 width: 240px;
 height: 10px;
 background: #000;
-margin-top: 495px;
+bottom:-3px;
 margin-bottom: 0px;
 margin-right: 0px;
 margin-left: 12px;
 border-bottom-left-radius: 100%;
-border-bottom-right-radius: 100%
+border-bottom-right-radius: 100%;
+position:absolute;
+
 `;
 

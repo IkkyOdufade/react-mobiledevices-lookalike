@@ -23,7 +23,13 @@ export default function IPhoneXSMax() {
   `;
   const IPhonedot11i = styled.div `
   ${dotiph11i}
-  `;
+  `
+  
+  const handleClick = (e) => {
+    e.preventDefault()
+    console.log("Add whatever you need to add :)")
+    
+    } ;
     return (
        <MainBody>
          <p>Celebrate.</p>
@@ -32,6 +38,7 @@ export default function IPhoneXSMax() {
           <IPhoneDash11></IPhoneDash11>
           <IPhonedot11i></IPhonedot11i>
           <IPhonedot11></IPhonedot11>
+          <Content onClick={handleClick}>Click me !!</Content>
         </IPhoneBodyXS>
       </Padding>
     </MainBody>  

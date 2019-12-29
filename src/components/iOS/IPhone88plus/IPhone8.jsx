@@ -1,5 +1,5 @@
 import React from 'react';
-import {body, paddingCont, iphoneBody8, iphoneDash67, dotiph8, dot1iph8, dot2iph8,  dotbottIph8, dotellipseIph8} from  "../../config/style";
+import {body, paddingCont, iphoneBody8, iphoneDash67, dotiph8, dot1iph8, dot2iph8,  dotbottIph8} from  "../../config/style";
 import styled from '@emotion/styled';
 
 
@@ -31,12 +31,15 @@ export default function IPhone8() {
   
   const IPhonedotbot8 = styled.div `
   ${dotbottIph8}
-  `;
+  `
+  const handleClick = (e) => {
+    e.preventDefault()
+    console.log("Add whatever you need to add :)")
+    
+    } 
   
-  const IPhonedotell8 = styled.div `
-  ${dotellipseIph8}
-  `;
-
+  ;
+  
     return (
       <MainBody>
         <p>You are not..</p>
@@ -45,9 +48,9 @@ export default function IPhone8() {
           <IPhoneDash67></IPhoneDash67>
           <IPhonedot8></IPhonedot8>
           <IPhonedot28></IPhonedot28>
+          <Content onClick={handleClick}>Click me !!</Content>
           <IPhonedot18></IPhonedot18>
           <IPhonedotbot8></IPhonedotbot8>
-          <IPhonedotell8></IPhonedotell8>
         </IPhoneBody8>
       </Padding>
     </MainBody>

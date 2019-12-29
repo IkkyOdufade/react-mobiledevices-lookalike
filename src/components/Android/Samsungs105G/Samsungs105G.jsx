@@ -35,6 +35,11 @@ export default function Samsungs105G() {
   ${blackspacebottom5g}
   `
 
+  const handleClick = (e) => {
+    e.preventDefault()
+    console.log("Add whatever you need to add :)")
+    
+    } 
  
    return (
       <MainBody>
@@ -47,6 +52,7 @@ export default function Samsungs105G() {
             <Dot2></Dot2>
             <Dot1></Dot1>
             </Camera>
+            <Content onClick={handleClick}>Click me !!</Content>
             <Blackspacebottom></Blackspacebottom>
           </Smartphone>
         </Padding>
