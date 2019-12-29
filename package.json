@@ -10,7 +10,8 @@
     "/dist",
     "src/components",
     "src/index.js",
-    "package.json"
+    "package.json",
+    "README.md"
   ],
   "keywords": [
     "react",
