@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from "@emotion/styled";
-import {samsngphoneBody, dot1sam10p, dotsam10p, blackspacetop, blackspacebottom5g,cameraSams10p, paddingCont, body} from '../../config/style';
+import {samsngphoneBody,mainbtton, dot1sam10p, dotsam10p, blackspacetop, blackspacebottom5g,cameraSams10p, paddingCont, body} from '../../config/style';
 
-export default function Samsungs10plus() {
+export default function Samsungs10plus({content}) {
   const MainBody = styled.div `
   ${body}
   `
@@ -27,6 +27,11 @@ export default function Samsungs10plus() {
   ${cameraSams10p}
 
   ` 
+
+
+  const Content = styled.button `
+  ${mainbtton}
+  `
   const Blackspacebottom = styled.div `
   ${blackspacebottom5g}
   `
@@ -45,7 +50,7 @@ export default function Samsungs10plus() {
             <Dot></Dot>
             <Dot1></Dot1>
             </Camera>
-            <Content onClick={handleClick}>Click me !!</Content>
+            {content ? content : <Content onClick={handleClick}>Click me !!</Content>}
             <Blackspacebottom></Blackspacebottom>
           </Smartphone>
         </Padding>

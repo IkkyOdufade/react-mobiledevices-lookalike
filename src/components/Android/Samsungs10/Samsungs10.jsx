@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import {samsngphoneBody, mainbtton, dotsam10,blackspacetop, blackspacebottom, cameraSams10, paddingCont, body} from '../../config/style';
 
 
-export default function Samsungs10() {
+export default function Samsungs10({content}) {
   const MainBody = styled.div `
   ${body}
   `
@@ -50,8 +50,8 @@ console.log("It works!!")
             <Camera>
             <Dot></Dot>
             </Camera>
-            <Content onClick={handleClick}>Click me!</Content>
-            {text}
+           {content ? content : <Content onClick={handleClick}>Click me!</Content>}
+            
             <Blackspacebottom></Blackspacebottom>
            
           </Smartphone>
