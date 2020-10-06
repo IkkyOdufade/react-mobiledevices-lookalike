@@ -1,9 +1,9 @@
 import React from 'react';
-import {body, paddingCont, iphoneBodyXS, iphoneDash11, dotiph11, dotiph11i} from  "../../config/style";
+import {body,mainbtton, paddingCont, iphoneBodyXS, iphoneDash11, dotiph11, dotiph11i} from  "../../config/style";
 import styled from '@emotion/styled';
 
 
-export default function IPhoneXSMax() {
+export default function IPhoneXSMax({content}) {
   const MainBody = styled.div `
   ${body}
   `;
@@ -24,6 +24,10 @@ export default function IPhoneXSMax() {
   const IPhonedot11i = styled.div `
   ${dotiph11i}
   `
+  const Content = styled.button `
+  ${mainbtton}
+  `
+  
   
   const handleClick = (e) => {
     e.preventDefault()
@@ -38,8 +42,8 @@ export default function IPhoneXSMax() {
           <IPhoneDash11></IPhoneDash11>
           <IPhonedot11i></IPhonedot11i>
           <IPhonedot11></IPhonedot11>
-          <Content onClick={handleClick}>Click me !!</Content>
-        </IPhoneBodyXS>
+          {content ? content : <Content onClick={handleClick}>Click me !!</Content>
+          }         </IPhoneBodyXS>
       </Padding>
     </MainBody>  
     )

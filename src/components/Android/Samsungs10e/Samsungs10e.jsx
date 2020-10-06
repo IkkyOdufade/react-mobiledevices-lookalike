@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styled from "@emotion/styled";
 import {samsngphoneBody, blackspacetop, mainbtton, blackspacebottom, dotsam10, cameraSams10, paddingCont, body} from '../../config/style';
 
-export default function Samsungs10e() {
+export default function Samsungs10e({content}) {
   const MainBody = styled.div `
   ${body}
   `
@@ -52,7 +52,7 @@ export default function Samsungs10e() {
             <Camera>
             <Dot></Dot>
             </Camera>
-            <Content onClick={handleClick}>Click me !!</Content>
+            {content ? content : <Content onClick={handleClick}>Click me!</Content>}
             <Blackspacebottom></Blackspacebottom>
           </Smartphone>
         </Padding>
