@@ -1,6 +1,6 @@
 {
   "name": "react-mobiledevices-lookalike",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A simple mobile phones lookalike library",
   "main": "dist/bundle.js",
   "browser": "dist/index.umd.js",
