@@ -1,6 +1,6 @@
 {
   "name": "@IkkyOdufade/react-mobiledevices-lookalike",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "A simple mobile phones lookalike library",
   "main": "dist/bundle.js",
   "browser": "dist/index.umd.js",
@@ -27,8 +27,9 @@
     "build": "npm run build:umd",
     "build:umd": "rollup -c"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/IkkyOdufade" },
-
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/IkkyOdufade"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/IkkyOdufade/react-mobiledevices-loookalike"
