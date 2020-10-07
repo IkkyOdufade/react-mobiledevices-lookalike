@@ -43,7 +43,8 @@
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "rollup": "^2.28.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
