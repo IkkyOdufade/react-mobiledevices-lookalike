@@ -12,14 +12,14 @@ _ This project was built with react, so it comes with some dependencies.
 
 ## Installation
 # NPM
-` npm install react_mobilephones_lookalike `
+` npm install react-mobiledevices-lookalike `
 
 
 
 ## Usage
 _ Import required react_mobilephones_lookalike components within src/index.js file or your custom component files.
  ``` js
-import {Samsungs105G} from 'react_mobilephones_lookalike';
+import {Samsungs105G} from 'react-mobiledevices-lookalike';
 
 
 
