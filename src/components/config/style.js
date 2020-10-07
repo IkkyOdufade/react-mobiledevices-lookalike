@@ -279,7 +279,7 @@ display: block;
 
     export const dotiph66s7 = css `
     display: block;
-    width: 158px;
+    width: 159px;
     height: 40px !important;
     background: #110c11;
     z-index: 50;
@@ -339,13 +339,13 @@ display: block;
 
     export const dotbottIph66s7 = css `
     display: block;
-    width: 158px;
+    width: 159px;
     height: 40px !important;
     background: #110c11;
     z-index: 50;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 266px;
+    margin-top: 100px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     `;

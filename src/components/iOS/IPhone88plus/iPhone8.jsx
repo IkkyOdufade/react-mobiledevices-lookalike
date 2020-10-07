@@ -3,7 +3,7 @@ import {body, paddingCont, mainbtton,iphoneBody8, iphoneDash67, dotiph8, dot1iph
 import styled from '@emotion/styled';
 
 
-export default function IPhone8({content}) {
+export default function iPhone8({content}) {
   const MainBody = styled.div `
   ${body}
   `;

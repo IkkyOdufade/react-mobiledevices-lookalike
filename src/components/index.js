@@ -14,9 +14,8 @@ export {Samsungs10plus};
 import IPhone66s7 from './iOS/IPhone66s7/IPhone66s7.jsx';
 export {IPhone66s7};
 
-
-import IPhone6plus7plus from './iOS/IPhone6+_7+/IPhone6plus7plus.jsx';
-export {IPhone6plus7plus};
+import iPhone6plus7plus from './iOS/IPhone6+_7+/iPhone6plus7plus.jsx';
+export {iPhone6plus7plus};
 
 import IPhone11 from './iOS/IPhone11/IPhone11.jsx';
 export {IPhone11};
@@ -27,8 +26,8 @@ export {IPhone11Pro};
 import IPhone11ProMax from './iOS/IPhone11/IPhone11ProMax.jsx';
 export {IPhone11ProMax};
 
-import IPhone8 from './iOS/IPhone88plus/iPhone8.jsx';
-export {IPhone8};
+import iPhone8 from './iOS/IPhone88plus/iPhone8.jsx';
+export {iPhone8};
 
 
 import IPhoneX from './iOS/IPhonex/IPhoneX.jsx';

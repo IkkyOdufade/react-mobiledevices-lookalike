@@ -1,7 +1,7 @@
 import React from 'react';
 import { body, paddingCont, mainbtton, iphoneBody67, iphoneDash67, dotiph67, dot1iph67, dot2iph67, dotbottIph67, dotellipseIph67 } from "../../config/style";
 import styled from '@emotion/styled';
-export default function IPhone6plus7plus({ content }) {
+export default function iPhone6plus7plus({content}) {
   const MainBody = styled.div`
 ${body}
 `;
@@ -59,16 +59,16 @@ ${mainbtton}
       <p>I'm here!!</p>
       <Padding>
         <IPhoneBody67>
-          <IPhonedot67></IPhonedot67>
-          <IPhoneDash67></IPhoneDash67>
-          <IPhonedot167></IPhonedot167>
-          <IPhonedot267></IPhonedot267>
-          {content ? content : <Content onClick={handleClick}>Click me !!</Content>
-          }                <IPhonedotbot67></IPhonedotbot67>
-          <IPhonedotell67></IPhonedotell67>
+          <IPhonedot67/>
+          <IPhoneDash67/>
+          <IPhonedot167/>
+          <IPhonedot267/>
+          {content ? content : <Content onClick={handleClick}>Click me !!</Content>}                
+          <IPhonedotbot67/>
+          <IPhonedotell67/>
         </IPhoneBody67>
       </Padding>
     </MainBody>
   )
-}
+};
 

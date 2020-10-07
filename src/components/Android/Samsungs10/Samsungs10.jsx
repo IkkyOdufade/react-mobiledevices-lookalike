@@ -37,6 +37,7 @@ export default function Samsungs10({content}) {
 const handleClick = (e) => {
 e.preventDefault()
 console.log("It works!!")
+alert("Add content")
 
 }
 
